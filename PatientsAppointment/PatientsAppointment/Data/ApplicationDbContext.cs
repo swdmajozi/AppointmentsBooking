@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using PatientAppointment.Models;
+using PatientsAppointment.Models;
 
-namespace PatientAppointment.Data
+namespace PatientAsppointment.Data
 {
-    public class AppDbContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
         public DbSet<Appointment> Appointments { get; set; } = null!;
     }

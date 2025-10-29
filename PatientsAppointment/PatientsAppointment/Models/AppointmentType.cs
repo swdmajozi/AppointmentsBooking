@@ -1,4 +1,4 @@
-﻿namespace PatientAppointment.Models
+﻿namespace PatientsAppointment.Models
     {
         public enum AppointmentType
         {

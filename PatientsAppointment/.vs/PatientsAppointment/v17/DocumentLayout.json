@@ -1,10 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Projects\\Book\\PatientsAppointment\\",
+  "WorkspaceRootPath": "C:\\Projects\\Bookings\\PatientsAppointment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|c:\\projects\\book\\patientsappointment\\patientsappointment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|c:\\projects\\bookings\\patientsappointment\\patientsappointment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|solutionrelative:patientsappointment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|c:\\projects\\bookings\\patientsappointment\\patientsappointment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|solutionrelative:patientsappointment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|c:\\projects\\bookings\\patientsappointment\\patientsappointment\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|solutionrelative:patientsappointment\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|c:\\projects\\bookings\\patientsappointment\\patientsappointment\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|solutionrelative:patientsappointment\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|c:\\projects\\bookings\\patientsappointment\\patientsappointment\\views\\appointment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|solutionrelative:patientsappointment\\views\\appointment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|c:\\projects\\bookings\\patientsappointment\\patientsappointment\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|solutionrelative:patientsappointment\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|c:\\projects\\bookings\\patientsappointment\\patientsappointment\\models\\viewmodels\\bookappointmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|solutionrelative:patientsappointment\\models\\viewmodels\\bookappointmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|c:\\projects\\bookings\\patientsappointment\\patientsappointment\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|solutionrelative:patientsappointment\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|c:\\projects\\bookings\\patientsappointment\\patientsappointment\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|solutionrelative:patientsappointment\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|c:\\projects\\bookings\\patientsappointment\\patientsappointment\\models\\appointmenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|solutionrelative:patientsappointment\\models\\appointmenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|c:\\projects\\bookings\\patientsappointment\\patientsappointment\\views\\appointment\\_timeslotspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|solutionrelative:patientsappointment\\views\\appointment\\_timeslotspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|c:\\projects\\bookings\\patientsappointment\\patientsappointment\\wwwroot\\js\\appointment.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|solutionrelative:patientsappointment\\wwwroot\\js\\appointment.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|c:\\projects\\bookings\\patientsappointment\\patientsappointment\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|solutionrelative:patientsappointment\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|c:\\projects\\bookings\\patientsappointment\\patientsappointment\\services\\consoleemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|solutionrelative:patientsappointment\\services\\consoleemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|c:\\projects\\bookings\\patientsappointment\\patientsappointment\\services\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A547A57-A49C-47F0-A8C9-81028D479D65}|PatientsAppointment\\PatientsAppointment.csproj|solutionrelative:patientsappointment\\services\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +70,201 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projects\\Book\\PatientsAppointment\\PatientsAppointment\\Program.cs",
+              "DocumentMoniker": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Program.cs",
               "RelativeDocumentMoniker": "PatientsAppointment\\Program.cs",
-              "ToolTip": "C:\\Projects\\Book\\PatientsAppointment\\PatientsAppointment\\Program.cs",
+              "ToolTip": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Program.cs",
               "RelativeToolTip": "PatientsAppointment\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-29T07:08:59.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "PatientsAppointment\\Controllers\\AppointmentController.cs",
+              "ToolTip": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "PatientsAppointment\\Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAAEMAAAAAmJmZmRkpwFcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:27:26.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookAppointmentViewModel.cs",
+              "DocumentMoniker": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Models\\ViewModels\\BookAppointmentViewModel.cs",
+              "RelativeDocumentMoniker": "PatientsAppointment\\Models\\ViewModels\\BookAppointmentViewModel.cs",
+              "ToolTip": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Models\\ViewModels\\BookAppointmentViewModel.cs",
+              "RelativeToolTip": "PatientsAppointment\\Models\\ViewModels\\BookAppointmentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T08:00:04.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\appsettings.json",
+              "RelativeDocumentMoniker": "PatientsAppointment\\appsettings.json",
+              "ToolTip": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\appsettings.json",
+              "RelativeToolTip": "PatientsAppointment\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-29T08:08:58.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "PatientsAppointment\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "PatientsAppointment\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:50:53.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PatientsAppointment\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PatientsAppointment\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:53:04.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Views\\Appointment\\Index.cshtml",
+              "RelativeDocumentMoniker": "PatientsAppointment\\Views\\Appointment\\Index.cshtml",
+              "ToolTip": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Views\\Appointment\\Index.cshtml",
+              "RelativeToolTip": "PatientsAppointment\\Views\\Appointment\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T07:32:56.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PatientsAppointment\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PatientsAppointment\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T07:30:53.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppointmentType.cs",
+              "DocumentMoniker": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Models\\AppointmentType.cs",
+              "RelativeDocumentMoniker": "PatientsAppointment\\Models\\AppointmentType.cs",
+              "ToolTip": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Models\\AppointmentType.cs",
+              "RelativeToolTip": "PatientsAppointment\\Models\\AppointmentType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:48:35.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appointment.js",
+              "DocumentMoniker": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\wwwroot\\js\\appointment.js",
+              "RelativeDocumentMoniker": "PatientsAppointment\\wwwroot\\js\\appointment.js",
+              "ToolTip": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\wwwroot\\js\\appointment.js",
+              "RelativeToolTip": "PatientsAppointment\\wwwroot\\js\\appointment.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAywCUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-29T07:43:24.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_TimeSlotsPartial.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Views\\Appointment\\_TimeSlotsPartial.cshtml",
+              "RelativeDocumentMoniker": "PatientsAppointment\\Views\\Appointment\\_TimeSlotsPartial.cshtml",
+              "ToolTip": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Views\\Appointment\\_TimeSlotsPartial.cshtml",
+              "RelativeToolTip": "PatientsAppointment\\Views\\Appointment\\_TimeSlotsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T07:40:48.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "PatientsAppointment\\Models\\Appointment.cs",
+              "ToolTip": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Models\\Appointment.cs",
+              "RelativeToolTip": "PatientsAppointment\\Models\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:35:07.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "PatientsAppointment\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "PatientsAppointment\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAAHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-29T07:41:34.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConsoleEmailSender.cs",
+              "DocumentMoniker": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Services\\ConsoleEmailSender.cs",
+              "RelativeDocumentMoniker": "PatientsAppointment\\Services\\ConsoleEmailSender.cs",
+              "ToolTip": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Services\\ConsoleEmailSender.cs",
+              "RelativeToolTip": "PatientsAppointment\\Services\\ConsoleEmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:26:19.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IEmailSender.cs",
+              "DocumentMoniker": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Services\\IEmailSender.cs",
+              "RelativeDocumentMoniker": "PatientsAppointment\\Services\\IEmailSender.cs",
+              "ToolTip": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\Services\\IEmailSender.cs",
+              "RelativeToolTip": "PatientsAppointment\\Services\\IEmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:24:52.575Z",
               "EditorCaption": ""
             }
           ]

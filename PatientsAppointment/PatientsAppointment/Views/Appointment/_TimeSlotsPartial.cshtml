@@ -1,0 +1,15 @@
+﻿@model List<PatientsAppointment.ViewModels.SlotViewModel>
+
+<div class="slots">
+    @foreach (var slot in Model)
+    {
+        if (slot.IsAvailable)
+        {
+            <button type="button" class="slot-btn" data-start="@slot.Start.ToString("HH:mm")" data-end="@slot.End.ToString("HH:mm")">@slot.Label</button>
+        }
+        else
+        {
+            <button type="button" class="slot-btn disabled" disabled>@slot.Label</button>
+        }
+    }
+</div>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Book\\PatientsAppointment\\PatientsAppointment\\PatientsAppointment.csproj": {}
+    "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\PatientsAppointment.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Book\\PatientsAppointment\\PatientsAppointment\\PatientsAppointment.csproj": {
+    "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\PatientsAppointment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Book\\PatientsAppointment\\PatientsAppointment\\PatientsAppointment.csproj",
+        "projectUniqueName": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\PatientsAppointment.csproj",
         "projectName": "PatientsAppointment",
-        "projectPath": "C:\\Projects\\Book\\PatientsAppointment\\PatientsAppointment\\PatientsAppointment.csproj",
+        "projectPath": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\PatientsAppointment.csproj",
         "packagesPath": "C:\\Users\\C856293\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Book\\PatientsAppointment\\PatientsAppointment\\obj\\",
+        "outputPath": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -60,6 +60,12 @@
               "version": "[8.0.21, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.21, )"
             },

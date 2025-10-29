@@ -533,7 +533,7 @@
           "Mono.TextTemplating": "2.2.1"
         },
         "compile": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.Design.dll": {
+          "lib/net8.0/_._": {
             "related": ".xml"
           }
         },
@@ -4447,6 +4447,7 @@
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 8.0.21",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.21",
       "Microsoft.AspNetCore.Identity.UI >= 8.0.21",
+      "Microsoft.EntityFrameworkCore.Design >= 8.0.21",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.21",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.21"
     ]
@@ -4458,11 +4459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Book\\PatientsAppointment\\PatientsAppointment\\PatientsAppointment.csproj",
+      "projectUniqueName": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\PatientsAppointment.csproj",
       "projectName": "PatientsAppointment",
-      "projectPath": "C:\\Projects\\Book\\PatientsAppointment\\PatientsAppointment\\PatientsAppointment.csproj",
+      "projectPath": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\PatientsAppointment.csproj",
       "packagesPath": "C:\\Users\\C856293\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Book\\PatientsAppointment\\PatientsAppointment\\obj\\",
+      "outputPath": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4511,6 +4512,12 @@
             "version": "[8.0.21, )"
           },
           "Microsoft.AspNetCore.Identity.UI": {
+            "target": "Package",
+            "version": "[8.0.21, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.21, )"
           },

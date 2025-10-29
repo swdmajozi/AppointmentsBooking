@@ -1,22 +1,122 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
-  margin-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    color: #222;
+    margin: 0;
+    padding: 0;
 }
+
+.topbar {
+    background: #e67e22;
+    color: #fff;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .topbar .brand {
+        font-weight: 700;
+    }
+
+.main-nav a {
+    margin: 0 8px;
+    color: #fff;
+    text-decoration: none;
+}
+
+    .main-nav a.active {
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+.container {
+    padding: 24px;
+}
+
+.book-panel {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 6px;
+    display: flex;
+    gap: 24px;
+}
+
+.left {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.right {
+    flex: 1;
+}
+
+label {
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+input[type="text"], input[type="email"], select, input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.slots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 8px;
+    background: #fafafa;
+    border-radius: 6px;
+    min-height: 160px;
+}
+
+.slot-btn {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #999;
+    background: #fff;
+    cursor: pointer;
+}
+
+    .slot-btn.disabled {
+        opacity: 0.45;
+        cursor: not-allowed;
+    }
+
+    .slot-btn.selected {
+        background: #e67e22;
+        color: #fff;
+        border-color: #d35400;
+    }
+
+.actions {
+    margin-top: 16px;
+}
+
+.book-btn {
+    background: #eaa77f;
+    border: 1px solid #d17d3f;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.alert {
+    margin-top: 12px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+    .alert.error {
+        background: #f8d7da;
+        color: #721c24;
+    }
+
+    .alert.success {
+        background: #d4edda;
+        color: #155724;
+    }

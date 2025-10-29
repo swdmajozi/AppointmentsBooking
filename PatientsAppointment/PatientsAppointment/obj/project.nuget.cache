@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PjJRzbslCAQ=",
+  "dgSpecHash": "Jt049QmuWns=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\Book\\PatientsAppointment\\PatientsAppointment\\PatientsAppointment.csproj",
+  "projectFilePath": "C:\\Projects\\Bookings\\PatientsAppointment\\PatientsAppointment\\PatientsAppointment.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\C856293\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\C856293\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

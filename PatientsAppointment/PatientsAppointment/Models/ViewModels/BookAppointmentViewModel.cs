@@ -1,30 +1,20 @@
-﻿using PatientAppointment.Models;
-using System.ComponentModel.DataAnnotations;
+﻿
+using PatientsAppointment.Models;
 
-namespace PatientsAppointment.Models.ViewModels
+namespace PatientsAppointment.ViewModels
 {
-    public class Appointment
+    public class SlotViewModel
     {
-        public int Id { get; set; }
+        public TimeOnly Start { get; set; }
+        public TimeOnly End { get; set; }
+        public bool IsAvailable { get; set; }
+        public string Label => $"{Start:HH:mm} - {End:HH:mm}";
+    }
 
-        [Required, EmailAddress]
-        public string PatientEmail { get; set; } = null!;
-
-        [Required]
-        public string PatientName { get; set; } = null!;
-
-        [Required]
-        public DateOnly Date { get; set; }
-
-        [Required]
-        public TimeOnly StartTime { get; set; }
-
-        [Required]
-        public TimeOnly EndTime { get; set; }
-
-        [Required]
-        public AppointmentType Type { get; set; }
-
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    public class BookAppointmentViewModel
+    {
+        public DateOnly SelectedDate { get; set; }
+        public AppointmentType SelectedType { get; set; }
+        public List<SlotViewModel> Slots { get; set; } = new();
     }
 }

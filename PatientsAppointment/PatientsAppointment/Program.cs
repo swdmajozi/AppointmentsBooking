@@ -1,13 +1,13 @@
 using Microsoft.EntityFrameworkCore;
-using PatientAppointment.Data;
-using PatientAppointment.Services;
+using PatientsAppointment.Services;
 using System;
+using PatientAsppointment.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection") ?? "Data Source=appointments.db"));
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection") ?? "Data Source=appointments.db"));
 
 builder.Services.AddScoped<IEmailSender, ConsoleEmailSender>();
 
@@ -25,7 +25,7 @@ app.MapControllerRoute(
 
 using (var scope = app.Services.CreateScope())
 {
-    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
     db.Database.Migrate();
 }
 

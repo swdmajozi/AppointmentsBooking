@@ -1,0 +1,56 @@
+﻿@model PatientsAppointment.ViewModels.BookAppointmentViewModel
+@{
+    Layout = "_Layout";
+}
+
+<div class="page">
+    <h2>Book Appointment</h2>
+
+    <div class="book-panel">
+        <form method="post" asp-action="Book">
+            <div class="left">
+                <label>Appointment Type</label>
+                <select name="type" required>
+                    <option value="0">Please Select</option>
+                    <option value="1">Injury on duty</option>
+                    <option value="2">Emergency</option>
+                    <option value="3">Chronic Management</option>
+                    <option value="4">First Consultation</option>
+                    <option value="5">Follow up</option>
+                </select>
+
+                <label>Date</label>
+                <input type="date" id="datePicker" name="date" value="@Model.SelectedDate.ToString("yyyy-MM-dd")" />
+
+                <label>Patient Name</label>
+                <input type="text" name="patientName" required />
+
+                <label>Patient Email</label>
+                <input type="email" name="patientEmail" required />
+            </div>
+
+            <div class="right">
+                <label>Time</label>
+                <div id="timesContainer">
+                    @await Html.PartialAsync("_TimeSlotsPartial", Model.Slots)
+                </div>
+            </div>
+
+            <div class="actions">
+                <input type="hidden" name="start" id="selectedStart" />
+                <input type="hidden" name="end" id="selectedEnd" />
+                <button type="submit" class="book-btn">Book Appointment</button>
+            </div>
+            @Html.AntiForgeryToken()
+        </form>
+    </div>
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert error">@TempData["Error"]</div>
+    }
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert success">@TempData["Success"]</div>
+    }
+</div>
